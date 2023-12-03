@@ -22,9 +22,17 @@ body {
   text-shadow: 4px 4px 10px #222; 
 }
 
-	#symbols {
+#symbols {
   display: block;
   margin-left: auto;
   margin-right: auto;
   /* width: 50%;*/
   max-height: 350px;
+}
+
+h2 {
+  color: ghostwhite; 
+  font-size: 1.5em;
+  /* text-transform: uppercase; */
+}
+
