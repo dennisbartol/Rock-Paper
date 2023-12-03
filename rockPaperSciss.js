@@ -25,7 +25,7 @@ function generateComputerChoice() {
   if (randomNumber === 3) {
     computerChoice = 'paper'
   }
-  computerChoiceDisplay.innerHTML = computerChoice
+  computerChoiceDisplay.innerHTML = computerChoice;
 }
 
 function getResult() {
@@ -50,5 +50,5 @@ function getResult() {
   if (computerChoice === 'scissors' && userChoice === "paper") {
     result = 'you lose!'
   }
-  resultDisplay.innerHTML = result
+  resultDisplay.innerHTML = result;
 }
