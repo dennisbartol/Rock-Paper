@@ -21,7 +21,7 @@ body {
   text-shadow: 4px 4px 10px #222; 
 }
 
-	#symbols {
+#symbols {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -29,20 +29,9 @@ body {
   max-height: 350px;
   /* opacity: 0.9; */
      
-  }
+}
 
-  /*	
-  height: 400px ; 
-  
-  display: grid; 
-  place-items: center;
-  */
-  /*
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-  */
-
+ 
 
 h2 {
   color: ghostwhite; 
@@ -50,10 +39,7 @@ h2 {
   /* text-transform: uppercase; */
 }
 
-
 button { 
-  /* display: block; 
-  margin: 0 auto; */
   padding: 8px 18px;
   color: #222;
   /* font-weight: bold; */
