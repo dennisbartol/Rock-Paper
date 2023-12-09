@@ -29,4 +29,7 @@ body {
   max-height: 350px;   
 }
 
- 
+ h2 {
+  color: ghostwhite; 
+  font-size: 1.5em;
+}
