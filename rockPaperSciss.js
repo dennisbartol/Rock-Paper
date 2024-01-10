@@ -55,5 +55,8 @@ function getResult() {
   if (computerChoice === 'scissors' && userChoice === "paper") {
     result = 'you lose!'
   }
+  
+  result = capitalizeFirstLetter(result);
+  
   resultDisplay.innerHTML = result;
 }
