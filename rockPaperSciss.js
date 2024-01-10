@@ -6,7 +6,7 @@ let userChoice;
 let computerChoice;
 let result;
 
-// Capitalisation function 
+// Capitalisation fun-ction 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
