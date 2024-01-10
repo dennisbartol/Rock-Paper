@@ -6,6 +6,11 @@ let userChoice;
 let computerChoice;
 let result;
 
+// Capitalisation function 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id;
   userChoiceDisplay.innerHTML = userChoice;
@@ -50,5 +55,8 @@ function getResult() {
   if (computerChoice === 'scissors' && userChoice === "paper") {
     result = 'you lose!'
   }
+  
+  result = capitalizeFirstLetter(result);
+  
   resultDisplay.innerHTML = result;
 }
