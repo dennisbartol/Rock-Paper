@@ -22,6 +22,13 @@ body {
   border: 1px solid ghostwhite;
 }
 
+/* Indent the content container */
+.content-container {
+   margin-left: 105px; 
+   text-align: left;
+}
+
+
 #symbols {
   display: block;
   margin-left: auto;
@@ -36,10 +43,12 @@ body {
 
 
 button { 
+  margin: 2px; /* E<pty space between buttons */
   padding: 8px 18px;
   color: #222;
   font-style: normal;
   outline: none; 
+
 }
 
 
