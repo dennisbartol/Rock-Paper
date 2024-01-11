@@ -6,14 +6,14 @@ let userChoice;
 let computerChoice;
 let result;
 
-// Capitalisation function 
+// Capitalisation fun-ction 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id;
-  userChoiceDisplay.innerHTML = userChoice;
+  userChoiceDisplay.innerHTML = capitalizeFirstLetter(userChoice);
   generateComputerChoice();
   getResult();
 }))
@@ -30,7 +30,7 @@ function generateComputerChoice() {
   if (randomNumber === 3) {
     computerChoice = 'paper'
   }
-  computerChoiceDisplay.innerHTML = computerChoice;
+  computerChoiceDisplay.innerHTML = capitalizeFirstLetter(computerChoice);
 }
 
 function getResult() {
