@@ -25,8 +25,11 @@ body {
 /* Indent the content container */
 .content-container {
   /* margin-left: 60px; */
-  display: block; /* Centering the container */
-  margin: 0 auto;
+  position: absolute; 
+  left: 50%;
+  top: 50%; 
+  transform: translate(-50%, -50%);  
+  text-align: left;
 }
 
 
