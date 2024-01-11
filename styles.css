@@ -2,12 +2,13 @@ body {
   margin: 0; 
   padding: 0; 
   box-sizing: border-box;
-  height: 100vh; 
+  height: 100%; 
   background: coral;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #title { 
+  top: -100px; 
   text-align: center; 
   color: ghostwhite; 
 }
