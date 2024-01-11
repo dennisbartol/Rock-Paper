@@ -3,7 +3,8 @@ body {
   padding: 0; 
   box-sizing: border-box;
   height: 100vh; 
-  background: coral;
+  /* background: coral; */
+  background: linear-gradient(45deg, coral, coral, coral, rgb(245, 135, 95)); 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
