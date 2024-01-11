@@ -9,9 +9,12 @@ body {
 
 #title { 
   text-align: center; 
-  margin-bottom: 40px; 
+  height: 140px;
   color: ghostwhite; 
   z-index: 1; 
+  display: flex; 
+  justify-content: center;
+  align-items: last baseline;
 }
 
 .wrapper {
