@@ -13,7 +13,7 @@ function capitalizeFirstLetter(string) {
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id;
-  userChoiceDisplay.innerHTML = userChoice;
+  userChoiceDisplay.innerHTML = capitalizeFirstLetter(userChoice);
   generateComputerChoice();
   getResult();
 }))
