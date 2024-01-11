@@ -22,6 +22,12 @@ body {
   border: 1px solid ghostwhite;
 }
 
+/* Indent the content container */
+.content-container {
+  margin-left: 60px; 
+}
+
+
 #symbols {
   display: block;
   margin-left: auto;
