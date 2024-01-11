@@ -1,1 +1,1 @@
-<3h>Rock, paper, scissors !</h3> </br>
+<h3>Rock, paper, scissors !</h3> </br>
