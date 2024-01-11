@@ -24,12 +24,8 @@ body {
 
 /* Indent the content container */
 .content-container {
-  /* margin-left: 60px; */
-  position: absolute; 
-  left: 50%;
-  top: 50%; 
-  transform: translate(-50%, -50%);  
-  text-align: left;
+   margin-left: 75px; 
+   text-align: left;
 }
 
 
