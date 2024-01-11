@@ -11,6 +11,7 @@ body {
   text-align: center; 
   margin-bottom: -100px; 
   color: ghostwhite; 
+  z-index: 1; 
 }
 
 .wrapper {
