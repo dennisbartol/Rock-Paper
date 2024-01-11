@@ -8,7 +8,7 @@ body {
 }
 
 #title { 
-  top: -100px; 
+  top: 100px; 
   text-align: center; 
   color: ghostwhite; 
 }
