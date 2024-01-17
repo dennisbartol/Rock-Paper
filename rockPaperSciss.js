@@ -35,7 +35,7 @@ function generateComputerChoice() {
 
 function getResult() {
   if (computerChoice === userChoice) {
-    result = 'its a draw!'
+    result = 'it\'s a draw!'
   }
   if (computerChoice === 'rock' && userChoice === "paper") {
     result = 'you win!'
