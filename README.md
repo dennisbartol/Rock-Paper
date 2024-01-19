@@ -3,3 +3,7 @@
 <p>
 Play a relaxing game of Rock, Paper, Scissors ! 
 </p>
+
+<p>
+The program is powered by Javascript. 
+</p>
