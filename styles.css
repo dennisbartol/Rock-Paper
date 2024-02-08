@@ -4,7 +4,8 @@ body {
   box-sizing: border-box;
   height: 100vh; 
   /* background: coral; */
-  background: linear-gradient(45deg, coral, coral, coral, rgb(245, 135, 95)); 
+  /* background: linear-gradient(45deg, coral, coral, coral, rgb(245, 135, 95)); */
+  background: url('squarebackgr.webp') repeat;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
