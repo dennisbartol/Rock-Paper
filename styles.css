@@ -68,8 +68,8 @@ h4 {
 
 @media screen and (max-width: 600 pixels) {
   .wrapper {
-    width: 94%; 
-    padding: 1px 1px;
+    width: 86%; 
+    /* padding: 1px 1px; */
     position: absolute; 
     left: 50%;
     top: 50%; 
